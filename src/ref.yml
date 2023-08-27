@@ -1,0 +1,106 @@
+
+accelerate
+datasets
+diffusers
+transformers
+evaluate
+trl
+speechbox
+peft
+huggingface-hub
+simulate
+nlp
+
+
+
+simenv
+
+fastai
+fastprogress
+Robust Data Augmentation: The library extensively generates more training data, improving model performance.
+User-friendly Interface: Fastai presents an intuitive API to ensure users can quickly build and train complex ML models.
+Integration: It is highly integrable with other libraries like PyTorch (its base) for facilitating the building and training of deep learning models.
+
+OpenCV - https://www.analyticsvidhya.com/blog/2023/03/machine-learning-libraries/#OpenCV
+A Suite of Tools and Techniques: It provides various tools and techniques for image and video analysis, including image processing, object detection, face recognition, and optical character recognition (OCR).
+Free and Open-source: OpenCV is a free and open-source library, meaning it can be used and modified by anyone without any licensing fees.
+Integrable: OpenCV is easily integrated with other Python libraries like TensorFlow and PyTorch.
+
+pyvhacd
+
+https://pycaret.gitbook.io/docs/get-started/installation
+
+
+
+<!-- https://spacy.io/ -->
+neuralcoref
+
+https://huggingface.co/datasets/detection-datasets/coco
+[Title](https://huggingface.co/turhancan97/yolov8-segment-trash-detection)
+[Title](https://huggingface.co/turhancan97/yolov5-detect-trash-classification)
+https://huggingface.co/openai/clip-vit-base-patch32
+https://www.youtube.com/watch?v=cognZ12dpAM
+https://arxiv.org/abs/2109.01903
+https://arxiv.org/pdf/2201.03545.pdf
+
+https://www.youtube.com/watch?v=i3OYlaoj-BM
+
+https://www.pinecone.io/learn/series/image-search/zero-shot-object-detection-clip/
+https://www.pinecone.io/learn/series/image-search/clip/
+https://www.immersivelimit.com/tutorials/create-coco-annotations-from-scratch
+
+https://huggingface.co/spaces/rafaelpadilla/object_detection_leaderboard
+
+
+https://www.openml.org/
+https://pytorch.org/hub/
+10+ Free Resources to Download Datasets for Machine Learning - https://towardsdatascience.com/10-free-resources-to-download-datasets-for-machine-learning-2acfff33822
+Top 10 Platforms for Thousands of ML and AI Datasets You Need to Know - https://medium.com/p/8bae0773ca4
+
+https://datasetsearch.research.google.com/
+https://github.com/awesomedata/awesome-public-datasets
+https://www.kaggle.com/datasets
+https://registry.opendata.aws/
+https://archive.ics.uci.edu/ml/index.php
+http://academictorrents.com/browse.php
+
+https://www.analyticsvidhya.com/blog/
+
+https://pyimagesearch.com/start-here/
+
+https://roboflow.com/
+https://roboflow.com/model/yolov5-obb
+https://github.com/hukaixuan19970627/yolov5_obb
+
+Python-tesseract is an optical character recognition (OCR) tool for python. That is, it will recognize and “read” the text embedded in images.
+https://pypi.org/project/pytesseract/
+
+
+
+https://huggingface.co/docs/transformers/main_classes/pipelines#transformers.pipeline.task
+"object-detection"
+"zero-shot-object-detection"
+
+https://github.com/NielsRogge/Transformers-Tutorials/blob/master/YOLOS/Fine_tuning_YOLOS_for_object_detection_on_custom_dataset_(balloon).ipynb
+https://github.com/huggingface/transformers/tree/b0f23036f16b961e14cf480522fef8581c4bf19c/examples/pytorch#the-big-table-of-tasks
+https://github.com/huggingface/notebooks/blob/main/examples/zeroshot_object_detection_with_owlvit.ipynb
+https://github.com/valentinafeve/fine_tunning_YOLOS_for_fashion/blob/main/Fine_tuning_YOLOS_for_fashion.ipynb
+
+
+https://cocodataset.org/#format-data
+
+
+https://pytorch.org/hub/
+https://modelzoo.co/
+
+models:
+https://huggingface.co/hustvl - yolos
+https://github.com/ultralytics/ultralytics/ - yolo
+
+https://huggingface.co/facebook?sort_models=downloads#models - detr
+
+https://huggingface.co/google - owlvit
+
+https://huggingface.co/google/owlvit-base-patch32 - "zero-shot-object-detection"
+
+https://github.com/roboflow/notebooks
