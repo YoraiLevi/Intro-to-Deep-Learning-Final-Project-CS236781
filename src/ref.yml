@@ -5,12 +5,12 @@ diffusers
 transformers
 evaluate
 trl
-speechbox
 peft
 huggingface-hub
-simulate
-nlp
 
+
+speechbox
+simulate
 
 
 simenv
@@ -93,6 +93,9 @@ https://cocodataset.org/#format-data
 https://pytorch.org/hub/
 https://modelzoo.co/
 
+articles:
+Transfer Learning for Text Classification Using Hugging Face Transformers Trainer: https://medium.com/grabngoinfo/transfer-learning-for-text-classification-using-hugging-face-transformers-trainer-13407187cf89
+
 models:
 https://huggingface.co/hustvl - yolos
 https://github.com/ultralytics/ultralytics/ - yolo
@@ -109,3 +112,14 @@ DataLoaders errors with num_workers >0
 
 https://discuss.pytorch.org/t/dataloader-worker-failed/140518 
 https://discuss.pytorch.org/t/dataloader-num-workers-1-cuda-initialization-error-3/159989/4
+
+Model Cards for Model Reporting
+https://arxiv.org/pdf/1810.03993.pdf
+Training an object detection model using Hugging Face
+https://danielvanstrien.xyz/huggingface/huggingface-datasets/transformers/2022/08/16/detr-object-detection.html#Avoiding-ambiguous-labels
+
+A complete Hugging Face tutorial: how to build and train a vision transformer
+https://theaisummer.com/hugging-face-vit/#evaluating-the-model
+
+learning rate
+https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9900344

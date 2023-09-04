@@ -252,10 +252,9 @@ class DetectWasteDataset(datasets.GeneratorBasedBuilder):
             with PIL.Image.open(str(image_storage_path)) as I:
                 exif_transpose(
                     I,
-                    in_place=True,
+                    # in_place=True, # Does nothing. Pillow bug?
                     remove_exif_metadata_only=remove_exif_metadata_only,
-                )
-                I.save(
+                ).save(
                     str(new_image_storage_path),
                     format=format,
                     subsampling=0,
