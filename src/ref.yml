@@ -1,22 +1,10 @@
 
-accelerate
-datasets
-diffusers
-transformers
-evaluate
-trl
-peft
-huggingface-hub
-
-
 speechbox
 simulate
-
-
 simenv
-
-fastai
 fastprogress
+
+
 Robust Data Augmentation: The library extensively generates more training data, improving model performance.
 User-friendly Interface: Fastai presents an intuitive API to ensure users can quickly build and train complex ML models.
 Integration: It is highly integrable with other libraries like PyTorch (its base) for facilitating the building and training of deep learning models.
@@ -36,8 +24,6 @@ https://pycaret.gitbook.io/docs/get-started/installation
 neuralcoref
 
 https://huggingface.co/datasets/detection-datasets/coco
-[Title](https://huggingface.co/turhancan97/yolov8-segment-trash-detection)
-[Title](https://huggingface.co/turhancan97/yolov5-detect-trash-classification)
 https://huggingface.co/openai/clip-vit-base-patch32
 https://www.youtube.com/watch?v=cognZ12dpAM
 https://arxiv.org/abs/2109.01903
@@ -98,15 +84,17 @@ Transfer Learning for Text Classification Using Hugging Face Transformers Traine
 
 models:
 https://huggingface.co/hustvl - yolos
+[mshamrai/yolov8m-visdrone](https://huggingface.co/mshamrai/yolov8m-visdrone)
+[valentinafeve/yolos-fashionpedia](https://huggingface.co/valentinafeve/yolos-fashionpedia)
 https://github.com/ultralytics/ultralytics/ - yolo
 
 https://huggingface.co/facebook?sort_models=downloads#models - detr
+[L-DETR: A Light-Weight Detector for End-to-End Object Detection With Transformers](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9900344)
 
 https://huggingface.co/google - owlvit
 
-https://huggingface.co/google/owlvit-base-patch32 - "zero-shot-object-detection"
+[google/owlvit-base-patch32](https://huggingface.co/google/owlvit-base-patch32) - "zero-shot-object-detection"
 
-https://github.com/roboflow/notebooks
 
 DataLoaders errors with num_workers >0 
 
@@ -123,3 +111,42 @@ https://theaisummer.com/hugging-face-vit/#evaluating-the-model
 
 learning rate
 https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9900344
+
+
+[Ultralytics](https://github.com/ultralytics/ultralytics) - Ultralytics YOLOv8 is a cutting-edge, state-of-the-art (SOTA) model that builds upon the success of previous YOLO versions and introduces new features and improvements to further boost performance and flexibility. YOLOv8 is designed to be fast, accurate, and easy to use, making it an excellent choice for a wide range of object detection and tracking, instance segmentation, image classification and pose estimation tasks.
+
+
+
+Tutorials
+[Fine-Tuning a YOLOS model for object detection on a fashion dataset](https://pub.aimind.so/fine-tunning-a-yolos-model-for-object-detection-on-a-fashion-dataset-94bc59fa192e)
+
+[Forklift Object Detection: Object Detection](https://github.com/DunnBC22/Vision_Audio_and_Multimodal_Projects/blob/main/Computer%20Vision/Object%20Detection/Forklift%20Object%20Detection/Forklift_Object_Detection_YOLOS%20-%20Fine-Tune%20Only.ipynb)
+
+[Finetune DETR](https://github.com/woctezuma/finetune-detr)
+[Fine-tuning DETR on a custom dataset for object detection](https://github.com/NielsRogge/Transformers-Tutorials/blob/master/DETR/Fine_tuning_DetrForObjectDetection_on_custom_dataset_(balloon).ipynb)
+
+[Training an object detection model using Hugging Face](https://danielvanstrien.xyz/huggingface/huggingface-datasets/transformers/2022/08/16/detr-object-detection.html#Avoiding-ambiguous-labels)
+
+[Top 4 Pre-Trained Models for Image Classification with Python Code](https://www.analyticsvidhya.com/blog/2020/08/top-4-pre-trained-models-for-image-classification-with-python-code/)
+
+YoloV8 [YOLO models for Object Detection Explained [YOLOv8 Updated]](https://encord.com/blog/yolo-object-detection-guide/)
+
+
+[BigScience Workshop](https://github.com/bigscience-workshop)
+
+[Fine-tuning for image classification using LoRA and 🤗 PEFT](https://github.com/huggingface/peft/tree/main/examples/image_classification)
+
+[A comprehensive guide to memory usage in PyTorch](https://medium.com/deep-learning-for-protein-design/a-comprehensive-guide-to-memory-usage-in-pytorch-b9b7c78031d3)
+[PyTorch Model Size Estimator](https://github.com/jacobkimmel/pytorch_modelsize/tree/master)
+[MemoryEstimate - Blog](https://colab.research.google.com/drive/1bzCH3Yaq8gK0ZByxlcaRaj3pOc2u6zht)
+
+
+[Roboflow](https://github.com/roboflow)
+[Roboflow notebooks](https://github.com/roboflow/notebooks) - Over the years we have created dozens of Computer Vision tutorials. This repository contains examples and tutorials on using SOTA computer vision models and techniques. Learn everything from old-school ResNet, through YOLO and object-detection transformers like DETR, to the latest models like Grounding DINO and SAM
+[train-huggingface-detr-on-custom-dataset.ipynb](https://colab.research.google.com/github/roboflow-ai/notebooks/blob/main/notebooks/train-huggingface-detr-on-custom-dataset.ipynb#scrollTo=ea3rMbjMN8kl)
+[train-yolos-huggingface-object-detection-on-custom-data.ipynb](https://colab.research.google.com/github/roboflow-ai/notebooks/blob/main/notebooks/train-yolos-huggingface-object-detection-on-custom-data.ipynb#scrollTo=PlTO5aE0hh6c)
+
+
+[Welcome fastai to the Hugging Face Hub](https://huggingface.co/blog/fastai)
+
+[Calculating Tensorflow Object Detection Metrics with Python | Mean Average Precision (mAP) & Recall](https://www.youtube.com/watch?app=desktop&v=-HbCA0WGbBg)
