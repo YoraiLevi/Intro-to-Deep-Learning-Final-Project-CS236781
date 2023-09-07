@@ -1,12 +1,15 @@
 # CS236781: Deep Learning on Computational Accelerators
+
 # Homework Assignment 4
 
 Faculty of Computer Science, Technion.
 
-## Introduction
+```
+pip install -r requirements.txt
+```
 
-TODO
-
+* See part 1 for the project  
+* See src/Train.ipynb for training
 
 ## General Guidelines
 
